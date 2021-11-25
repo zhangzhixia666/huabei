@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/readme/static/css/main.db0a4c83.chunk.css",
+    "main.js": "/readme/static/js/main.1ee6d26e.chunk.js",
+    "main.js.map": "/readme/static/js/main.1ee6d26e.chunk.js.map",
+    "runtime-main.js": "/readme/static/js/runtime-main.5b365ffa.js",
+    "runtime-main.js.map": "/readme/static/js/runtime-main.5b365ffa.js.map",
+    "static/css/2.a95be28f.chunk.css": "/readme/static/css/2.a95be28f.chunk.css",
+    "static/js/2.9b330698.chunk.js": "/readme/static/js/2.9b330698.chunk.js",
+    "static/js/2.9b330698.chunk.js.map": "/readme/static/js/2.9b330698.chunk.js.map",
+    "static/js/3.bba66974.chunk.js": "/readme/static/js/3.bba66974.chunk.js",
+    "static/js/3.bba66974.chunk.js.map": "/readme/static/js/3.bba66974.chunk.js.map",
+    "index.html": "/readme/index.html",
+    "static/css/2.a95be28f.chunk.css.map": "/readme/static/css/2.a95be28f.chunk.css.map",
+    "static/css/main.db0a4c83.chunk.css.map": "/readme/static/css/main.db0a4c83.chunk.css.map",
+    "static/js/2.9b330698.chunk.js.LICENSE.txt": "/readme/static/js/2.9b330698.chunk.js.LICENSE.txt",
+    "static/media/home.jpg": "/readme/static/media/home.5a325e8f.jpg",
+    "static/media/home.jpeg": "/readme/static/media/home.e70fe0d6.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b365ffa.js",
+    "static/css/2.a95be28f.chunk.css",
+    "static/js/2.9b330698.chunk.js",
+    "static/css/main.db0a4c83.chunk.css",
+    "static/js/main.1ee6d26e.chunk.js"
+  ]
+}
