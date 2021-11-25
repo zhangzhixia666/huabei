@@ -12,6 +12,7 @@ import {useDocumentTitle} from "./utils/index"
 import {DMPFront} from "./screen/dmpFront"
 import {Home} from "./screen/home"
 import {WhistlerAdminFront} from "./screen/whistler_admin_front"
+import {Other} from "./screen/other"
 const { Header, Content, Sider } = Layout;
 const { SubMenu } = Menu;
   
@@ -57,7 +58,9 @@ function App() {
           <Menu.Item key="mogule" icon={<FolderAddTwoTone twoToneColor="#b15d04" />}>
             <Link to={`${root}/mogule`}>mogule</Link>
           </Menu.Item>
-          
+          <Menu.Item key="mogule" icon={<FolderAddTwoTone twoToneColor="#b15d04" />}>
+            <Link to={`${root}/other`}>其他</Link>
+          </Menu.Item>
 
       </Menu>
       </Sider>
@@ -73,6 +76,7 @@ function App() {
               <Route path={`${root}/mogule`} element={<Mogule />}></Route>
               <Route path={`${root}/dmp_front`} element={<DMPFront/>}></Route>
               <Route path={`${root}/whistler_admin_front`} element={<WhistlerAdminFront/>}></Route>
+              <Route path={`${root}/other`} element={<Other/>}></Route>
             </Routes>
         </div>
         </Content>
