@@ -26,7 +26,7 @@ function App() {
     console.log("collapsed",collapsed);
     setCollapsed(collapsed);
   };
-  const root = "/readme"
+  const root = "/huabei"
   return (
    <div className="App">
       <Layout style={{ minHeight: '100vh' }}>
