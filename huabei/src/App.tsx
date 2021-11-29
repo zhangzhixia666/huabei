@@ -4,7 +4,7 @@ import { Layout, Menu } from "antd";
 import { Route, Routes} from "react-router";
 import { Link } from "react-router-dom";
 
-import { SmileTwoTone,ThunderboltTwoTone,ToolTwoTone,CloudTwoTone,CrownTwoTone,PictureTwoTone,FolderAddTwoTone} from '@ant-design/icons';
+import { SmileTwoTone,ThunderboltTwoTone,ToolTwoTone,CloudTwoTone,CrownTwoTone,PictureTwoTone,FolderAddTwoTone,SettingTwoTone} from '@ant-design/icons';
 import {MoguleReact} from "./screen/mogule_react"
 import {Mini} from "./screen/mini"
 import {Mogule} from "./screen/mogule"
@@ -43,22 +43,22 @@ function App() {
        
         
 
-          <Menu.Item key="mogule_react" icon={<SmileTwoTone twoToneColor="#085aa7"/>}>
+          <Menu.Item key="mogule_react" icon={<SmileTwoTone twoToneColor="#ff0000"/>}>
             <Link to={`${root}/mogule_react`}>mogule_react</Link>
           </Menu.Item>
-          <Menu.Item key="4" icon={<CloudTwoTone twoToneColor="#ef2e01"/>}>
+          <Menu.Item key="4" icon={<CloudTwoTone twoToneColor="#ff8100"/>}>
             <Link to={`${root}/dmp_front`}>分销</Link>
           </Menu.Item>
-          <Menu.Item key="5" icon={<ToolTwoTone twoToneColor="#eb2f96"/>}>
+          <Menu.Item key="5" icon={<ToolTwoTone twoToneColor="#fff700"/>}>
             <Link to={`${root}/whistler_admin_front`}>三方管理端</Link>
           </Menu.Item>
-          <Menu.Item key="mini" icon={<ThunderboltTwoTone  twoToneColor="#b107a3" />}>
+          <Menu.Item key="mini" icon={<ThunderboltTwoTone  twoToneColor="#27ff00" />}>
             <Link to={`${root}/mini`}>小程序</Link>
           </Menu.Item>
-          <Menu.Item key="mogule" icon={<FolderAddTwoTone twoToneColor="#b15d04" />}>
+          <Menu.Item key="mogule" icon={<FolderAddTwoTone twoToneColor="#00c4ff" />}>
             <Link to={`${root}/mogule`}>mogule</Link>
           </Menu.Item>
-          <Menu.Item key="mogule" icon={<FolderAddTwoTone twoToneColor="#b15d04" />}>
+          <Menu.Item key="other" icon={<SettingTwoTone  twoToneColor="#d800ff" />}>
             <Link to={`${root}/other`}>其他</Link>
           </Menu.Item>
 

@@ -11,12 +11,14 @@ export const Other =()=>{
             expandIcon={({ isActive }) => <CaretRightOutlined rotate={isActive ? 90 : 0} />}
             className="site-collapse-custom-collapse"
         >
-            <Panel header="项目介绍" key="1" className="site-collapse-custom-panel">
-            <div>
-                
-                    其他
-                
-            </div>
+            <Panel header="其他" key="1" className="site-collapse-custom-panel">
+            <dl>
+                <dt>常用工具</dt>
+                <dd>vscode</dd>
+                <dd>git</dd>
+                <dd>sourcetree</dd>
+                <dd>charles</dd>
+            </dl>
             </Panel>
             
         </Collapse>

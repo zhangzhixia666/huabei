@@ -32,7 +32,7 @@ export const MoguleReact =()=>{
                     <dd>等等 <a target="_blank" href="./h5.txt">2021.4整理文档可参考</a></dd>
                 </dl>
                 <dl>
-                    <dt>正式环境</dt>
+                    <dt>正式环境 <strong>切换至master主分支</strong></dt>
                     <dd>执行：sh deploy_to_prod.sh</dd>
                     <dd>访问地址：https://h5.fenxuekeji.com/h5/mogul_react/user_login</dd>
                 </dl>
@@ -63,7 +63,13 @@ export const MoguleReact =()=>{
                     <dd>3、npm run start</dd>
                 </dl>
             </Panel>
-            <Panel header="注意事项" key="3" className="site-collapse-custom-panel">
+            <Panel header="近期跟进" key="3" className="site-collapse-custom-panel">
+                <p>会员模块更新</p>
+                <p>分销管理</p>
+                <p>菲滑不可大奖赛</p>
+                <p>阿迪活动</p>
+            </Panel>
+            <Panel header="注意事项" key="4" className="site-collapse-custom-panel">
                 <p>重点：因为项目属于混合开发，所以大多页面都会涉及到分享和返回APP</p>
                 <dl>
                     <dt>分享 示例：</dt>
