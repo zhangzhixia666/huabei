@@ -14,7 +14,8 @@ export const DMPFront =()=>{
             <Panel header="项目介绍" key="1" className="site-collapse-custom-panel">
             <div>
                 <p>
-                    <a target="_blank" href="https://test.fenxuekeji.com/dmp/drpmanage/_t_HkpZT2Y7jiqRVzxgLG5xRQ/">分销管理模块</a>，技术栈 react + webpack + less + fetch ;是管理端中独立出来的分销模块，管理端后端开发的，从管理端的分销模块链接到h5的分销模块。
+                    <a target="_blank" href="https://test.fenxuekeji.com/dmp/drpmanage/_t_HkpZT2Y7jiqRVzxgLG5xRQ/">分销管理模块</a>，技术栈 react + webpack + less + fetch ;是管理端中独立出来的分销模块，
+                        <a href="http://test.fenxuekeji.com/admin_users/sign_in" target="_blank">滑呗后台管理系统</a>后端开发的，从管理端的分销模块链接到h5的分销模块。
                     其中登录信息是从后端跳转时将token信息拼接到地址上，接口是java语言开发。
                     </p>
                     <p>分销管理有分销事件，分销订单和分销者管理模块组成</p>
