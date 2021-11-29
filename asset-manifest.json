@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/huabei/static/css/main.db0a4c83.chunk.css",
-    "main.js": "/huabei/static/js/main.242463dd.chunk.js",
-    "main.js.map": "/huabei/static/js/main.242463dd.chunk.js.map",
+    "main.js": "/huabei/static/js/main.a81d2139.chunk.js",
+    "main.js.map": "/huabei/static/js/main.a81d2139.chunk.js.map",
     "runtime-main.js": "/huabei/static/js/runtime-main.bb613c82.js",
     "runtime-main.js.map": "/huabei/static/js/runtime-main.bb613c82.js.map",
     "static/css/2.a95be28f.chunk.css": "/huabei/static/css/2.a95be28f.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.a95be28f.chunk.css",
     "static/js/2.cec11b7d.chunk.js",
     "static/css/main.db0a4c83.chunk.css",
-    "static/js/main.242463dd.chunk.js"
+    "static/js/main.a81d2139.chunk.js"
   ]
 }
